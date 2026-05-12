@@ -9,7 +9,9 @@ function App() {
   const [fileName, setFileName] = useState('');
   const [loading, setLoading] = useState(false);
   const [deletingId, setDeletingId] = useState(null);
-  const API_URL = "https://file-share-backend-w7sg.vercel.app";
+  // const API_URL = "https://file-share-backend-w7sg.vercel.app";
+  
+const API_URL = "https://file-share-backend-w7sg.vercel.app/api";
   
 
   const fetchFiles = async () => {
